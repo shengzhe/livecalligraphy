@@ -1,12 +1,15 @@
 ---
 layout: default
-title: ÎÒµÄBlog
+title: æ´»å­—å¸– (Live Calligraphy)
 ---
 <h2>{{ page.title }}</h2>
-<p>×îĞÂÎÄÕÂ</p>
+<p>æ´»å­—å¸–æ˜¯ä¸€æ¬¾iOSåº”ç”¨ï¼Œå¯è®©ä½ åœ¨iPadå’ŒiPhoneä¸Šæ¬£èµå’Œç»ƒä¹ ä¸­å›½ä¹¦æ³•ã€‚</p>
+<p>Live Calligraphy is an iOS app used to appreciate and practice Chinese calligraphy in iPad and iPhone.</p>
+<p></p>
+<p>Features</p>
 <ul>
-¡¡¡¡{% for post in site.posts %}
-¡¡¡¡¡¡¡¡<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-¡¡¡¡{% endfor %}
+ã€€ã€€{% for post in site.posts %}
+ã€€ã€€ã€€ã€€<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+ã€€ã€€{% endfor %}
 </ul>
 
