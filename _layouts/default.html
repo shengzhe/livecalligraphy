@@ -4,8 +4,17 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>{{ page.title }}</title>
 <style type="text/css">
-h1 {font-size:260%}
-p {font-size:180%}
+  body { -webkit-text-size-adjust: 100%;}
+  @media only screen and (max-device-width : 767px)
+  {
+    h1 {font-size: 160%;}
+    p  {font-size: 120%;}
+  }
+  @media only screen and (min-device-width : 768px)
+  {
+    h1 {font-size: 260%;}
+    p  {font-size: 200%;}
+  }
 </style>
 </head>
 <body>
